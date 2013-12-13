@@ -3,7 +3,6 @@ author: 'YC <yinso.chen@gmail.com>'
 name: 'templatey'
 description: 'A Simple Email Template Engine'
 version: '0.1.0'
-private: true
 repository:
   type: 'git'
   url: 'git://github.com/yinso/templatey.git'
@@ -26,7 +25,7 @@ dependencies:
   underscore: '=1.5.2'
   cheerio: '=0.12.4'
 devDependencies:
-  testlet: '~ 0.1.5'
+  testlet: '~ 0.1.7'
   supervisor: '= 0.5.0'
   'coffee-bean': '=0.2.0'
   read: ''

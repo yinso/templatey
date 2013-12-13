@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.bean" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="package.bean" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.bean">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="10" selection-start="680" selection-end="680" vertical-scroll-proportion="-18.6" vertical-offset="0" max-vertical-offset="570">
+            <state line="26" column="0" selection-start="568" selection-end="667" vertical-scroll-proportion="0.5660377" vertical-offset="0" max-vertical-offset="689">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="645">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="service.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="0" selection-start="2785" selection-end="2785" vertical-scroll-proportion="-51.0" vertical-offset="0" max-vertical-offset="1710">
+            <state line="85" column="0" selection-start="2785" selection-end="2785" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1710">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file leaf-file-name="fs.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fs.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="28" selection-start="382" selection-end="382" vertical-scroll-proportion="-8.4" vertical-offset="0" max-vertical-offset="885">
+            <state line="14" column="28" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -104,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="service.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/service.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="0" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.91291726" vertical-offset="331" max-vertical-offset="2235">
+            <state line="66" column="4" selection-start="1366" selection-end="1366" vertical-scroll-proportion="-3.0" vertical-offset="915" max-vertical-offset="2235">
               <folding />
             </state>
           </provider>
@@ -130,9 +130,9 @@
         <option value="$PROJECT_DIR$/src/main.coffee" />
         <option value="$PROJECT_DIR$/test/fs.coffee" />
         <option value="$PROJECT_DIR$/src/express.coffee" />
-        <option value="$PROJECT_DIR$/package.bean" />
         <option value="$PROJECT_DIR$/src/service.coffee" />
         <option value="$PROJECT_DIR$/test/service.coffee" />
+        <option value="$PROJECT_DIR$/package.bean" />
       </list>
     </option>
   </component>
@@ -168,7 +168,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,26 +230,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="web-ide.project.structure" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../covalent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -259,6 +251,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -320,9 +320,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/views/msg/forgetUserResult.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fs.coffee">
@@ -367,9 +365,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/msg/forgetUserResult.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.coffee">
@@ -395,7 +391,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fs.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="382" selection-end="382" vertical-scroll-proportion="-8.4" vertical-offset="0" max-vertical-offset="885">
+        <state line="14" column="28" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
@@ -407,23 +403,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.bean">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="10" selection-start="680" selection-end="680" vertical-scroll-proportion="-18.6" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/service.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="0" selection-start="2785" selection-end="2785" vertical-scroll-proportion="-51.0" vertical-offset="0" max-vertical-offset="1710">
+        <state line="85" column="0" selection-start="2785" selection-end="2785" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="1710">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/service.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.91291726" vertical-offset="331" max-vertical-offset="2235">
+        <state line="66" column="4" selection-start="1366" selection-end="1366" vertical-scroll-proportion="-3.0" vertical-offset="915" max-vertical-offset="2235">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.bean">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="568" selection-end="667" vertical-scroll-proportion="0.5660377" vertical-offset="0" max-vertical-offset="689">
           <folding />
         </state>
       </provider>

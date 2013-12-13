@@ -1,0 +1,38 @@
+{
+  "author": "YC <yinso.chen@gmail.com>",
+  "name": "templatey",
+  "description": "A Simple Email Template Engine",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yinso/templatey.git"
+  },
+  "engines": {
+    "node": "~ 0.8.4"
+  },
+  "scripts": {
+    "test": "make test",
+    "prepublish": "make"
+  },
+  "main": "./lib/main",
+  "dependencies": {
+    "express": "=3.0.3",
+    "coffee-script": "=1.4.0",
+    "coffee-bean": "=0.2.0",
+    "supervisor": "= 0.5.0",
+    "cookie": "=0.1.0",
+    "marked": "=0.2.10",
+    "handlebars": "=1.1.2",
+    "html-to-text": "=0.0.6",
+    "async": "=0.2.9",
+    "underscore": "=1.5.2",
+    "cheerio": "=0.12.4"
+  },
+  "devDependencies": {
+    "testlet": "~ 0.1.5",
+    "supervisor": "= 0.5.0",
+    "coffee-bean": "=0.2.0",
+    "read": ""
+  }
+}

@@ -1,0 +1,28 @@
+<div>
+    <form action="/login" method="post">
+        <div>
+            <label for="login">Login</label>
+            <input type="text" name="login" value="{{login}}"/>
+        </div>
+        <div>
+            <label for="login">Email</label>
+            <input type="text" name="login" value="{{email}}"/>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" />
+        </div>
+        <div>
+            <label for="password">Enter Password Again</label>
+            <input type="password" name="password" />
+        </div>
+        <div>
+            <input type="checkbox" id="agree" {{bindAttr checked="agree"}} />
+            <label for="agree">I agree with the Terms and Conditions</label>
+        </div>
+        <div>
+            <input type="submit" />
+            <input type="reset" />
+        </div>
+    </form>
+</div>

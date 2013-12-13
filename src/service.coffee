@@ -7,7 +7,7 @@ async = require 'async'
 _ = require 'underscore'
 fs = require './fs'
 path = require 'path'
-cheerio = require 'cheerio'
+mockquery = require 'mockquery'
 
 class Service
   @transports: {}
@@ -63,7 +63,7 @@ class Service
       layoutTemplate = @constructor.templates[if typeof(args.layout) == 'string' then args.layout else 'layout']
       html = layoutTemplate {body: html}
     text = htmlToText.fromString(html, {wordwrap: 72})
-    $ = cheerio.load html
+    $ = mockquery.load html
     testTitle = $('title')
     if testTitle.length > 0
       {html: html, text: text, title: testTitle.html()}

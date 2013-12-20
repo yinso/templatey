@@ -28,4 +28,4 @@ devDependencies:
   testlet: '~ 0.1.7'
   supervisor: '= 0.5.0'
   'coffee-bean': '=0.2.0'
-  read: ''
+  read: '=1.0.5'

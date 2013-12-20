@@ -4,7 +4,6 @@
 /node_modules
 [Tt]humbs.db
 /log
-lib/
 repos/
 .sass-cache/
 css/*.css
